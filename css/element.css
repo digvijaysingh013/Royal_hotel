@@ -1,0 +1,692 @@
+*{margin: 0px; padding: 0px;}
+/* ======================Navbar============================= */
+.nav
+{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 22;
+}
+.icon
+{
+    margin-top: 22px;
+    margin-left: 119px;
+}
+
+.navlist
+{
+    float: right;
+    list-style: none;
+    margin-right: 75px;
+}
+
+.navlist li
+{
+    float: left;
+    padding: 13px 19px;
+}
+.navlist li a
+{
+    text-decoration: none; 
+    color: black;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    line-height: 55px;
+    font-size: 11.9px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.navlist li a:hover{color: rgb(89, 198, 235);}
+/*===================Navbar end==================*/
+ /*====================First Section=============*/
+.container1
+{
+    height: 401px;
+    background-image: url("../image/banner-2.jpg");
+    background-size: 100%;
+}
+.cover
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.509);
+}
+.home
+{
+    height: 80px;
+    width: 250px;
+    /* background-color: red; */
+    position: relative;
+    top: 45%;
+    left: 41%;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    line-height: 45px;
+}
+.head1
+{
+   display: inline;
+   padding-right:5px;
+   font-weight: lighter;
+}
+/*==================Firsr Section End====================*/
+/*==================Second Section====================*/
+.container2
+{
+    height: 400px;
+    /* background-color: red; */
+}
+.content
+{
+    height: auto;
+    width: 87%;
+    /* background-color: green; */
+    margin: auto;
+    font-family: sans-serif;
+    position: relative;
+    top: 75px;
+    line-height: 25px;
+}
+.head2
+{
+    text-transform: capitalize;
+}
+.pra
+{
+    margin-top: 35px;
+    color: gray;
+}
+.pra b,u,sub,sup,s{color: #f39600;}
+/*==================Second Section End====================*/
+/*==================Button Animation Section====================*/
+.btn-container
+{
+    height: 955px;
+    /* background-color: red; */
+}
+.sample
+{
+    height: auto;
+    width: fit-content;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    margin-left: 95px;
+}
+.animation
+{
+    height: auto;
+    width: 75.9%;
+    /* background-color: green; */
+    margin-left: 95px;
+    margin-top: 55px;
+}
+.btn1,.btn2,.btn5,.btn7,.xl,.lr,.md,.sm
+{
+    height: 40px;
+    width: 111px;
+    /* background-color: yellow; */
+    float: left;
+    margin-left: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    line-height: 37px;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 14px;
+}
+.l{text-decoration: underline; color: black;}
+.dis{color: rgb(0, 105, 255); cursor: not-allowed;}
+.def1{color: black;}
+.def2{color: rgb(0, 105, 255);}
+/* ==============Animation 1======================= */
+
+.p{background-color: #f39600; border: 1px solid #f39600;}
+.s{background-color: lightskyblue; border: 1px solid lightskyblue;}
+.i{background-color: rgb(0, 115, 255); border: 1px solid rgb(0, 115, 255);}
+.w{background-color: yellow; border: 1px solid yellow;}
+.d{background-color: red; border: 1px solid red;}
+
+.def2:hover{color: black;}
+
+.p:hover{background-color: white;  color: #f39600;}
+.s:hover{background-color: white;  color: lightskyblue;}
+.i:hover{background-color: white;  color: rgb(0, 115, 255);}
+.w:hover{background-color: white;  color: yellow;}
+.d:hover{background-color: white;  color: red;}
+/* ==============Animation 1 End======================= */
+/* ==============Animation 2======================= */
+.p1{background-color: white; border: 1px solid #f39600; color: #f39600;}
+.s1{background-color: white; border: 1px solid lightskyblue; color: lightskyblue;}
+.i1{background-color: white; border: 1px solid rgb(0, 115, 255); color: rgb(0, 115, 255);}
+.w1{background-color: white; border: 1px solid yellow; color: yellow;}
+.d1{background-color: white; border: 1px solid red; color: red;}
+
+.p1:hover{background-color: #f39600; color: white;}
+.s1:hover{background-color: lightskyblue; color: white;}
+.i1:hover{background-color: rgb(0, 115, 255); color: white;}
+.w1:hover{background-color: yellow; color: white;}
+.d1:hover{background-color: red; color: white;}
+/* ==============Animation 2 End======================= */
+.type1,.type2
+{
+    height: 55px;
+    width: 100%;
+    margin-top: 15px;
+}
+.type2
+{
+    height: 55px;
+    margin-top: 29px;
+}
+/* button type 2 */
+.btn2{border-radius: 5px;}
+/* next button type */
+.btn5{border-radius: 20px 20px 20px 20px;}
+.btn7
+{
+    border-radius: 20px 20px 20px 20px; 
+    width: 129px;
+    word-spacing: 15px;
+}
+/* different Size */
+.xl{width: 129px; height: 47px; line-height: 45px;}
+.lr{width: 100px; height: 45px; line-height: 42px;}
+.md{height: 32px; width: 107px; line-height: 30px; margin-top: 5px;}
+.sm{height: 29px; width: 105px; line-height: 27px; margin-top: 5px;}
+/*==================Button Animation Section End====================*/
+/*==================Fourth Section====================*/
+.container4
+{
+    height: 740px;
+    /* background-color: red; */
+}
+.left-pra
+{
+    height: 355px;
+    width: 85%;
+    /* background-color: green; */
+    margin: auto;
+    font-family: sans-serif;
+}
+.headl4,.headr4
+{
+    height: 59px;
+    width: 100%;
+    /* background-color: yellow; */
+}
+.headr4{text-align: right;}
+.image
+{
+    height: 189px;
+    width: 25%;
+    /* background-color: aqua; */
+    float: left;
+}
+.lpra{
+    height: 189px;
+    width: 75%;
+    float: left;
+    /* background-color: #f39600; */
+}
+.par2
+{
+    line-height: 23.5px;
+    color: gray;
+}
+/*==================Fourth Section End====================*/
+/*==================Fifth Section====================*/
+.container5
+{
+    height: 700px;
+    /* background-color: red; */
+}
+.definition,.quotes
+{
+    height: 355px;
+    width: 90%;
+    margin: auto;
+    /* background-color: yellow; */
+    font-family: sans-serif;
+}
+.head5
+{
+    height: 16%;
+    width: 100%;
+    /* background-color: green; */
+}
+.content5
+{
+    height: 55%;
+    width: 375px;
+    /* background-color: aqua; */
+    float: left;
+    margin-left: 25px;
+}
+.pra5,.pra5i
+{
+    line-height: 25px;
+    font-size: 16px;
+    color: gray;
+    margin-top: 15px;
+}
+.pra5i{margin-left: 29px;}
+.quotes{height: 200px;}
+.line
+{
+    height: 170px;
+    background-color: #f39600;
+    width: 2px;
+    float: left;
+}
+/*==================Fifth Section End====================*/
+/*==================Sixth Section====================*/
+.container6
+{
+    height: 700px;
+    /* background-color: red; */
+}
+.table
+{
+    height: 700px;
+    width: 85%;
+    /* background-color: green; */
+    margin: auto;
+    font-family: sans-serif;
+}
+.head-div
+{
+    height: 90px;
+    width: 100%;
+    /* border: 1px solid; */
+}
+.row
+{
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.13);
+    margin-top: 5px;
+}
+.col
+{
+    height: 100%;
+    width: 22%;
+    /* background-color: #f39600; */
+    float: left;
+    margin-left: 2px;
+    text-transform: uppercase;
+    
+}
+.sn,.snu
+{
+    text-align: center;
+
+}
+.snu{color: gray;}
+.flag
+{
+    height: 100%;
+    width: fit-content;
+    float: left;
+    /* background-color: green; */
+}
+.country
+{
+    color: gray;
+    line-height: 32px;
+    margin-left: 9px;
+    text-transform: capitalize;
+}
+.per
+{
+    height: 5px;
+    margin-top: 11px;
+}
+.row h4{font-weight: lighter;}
+/*==================Sixth Section End====================*/
+/*==================Seventh Section====================*/
+.container7e
+{
+    height: 825px;
+    /* background-color: red; */
+}
+.img-container7
+{
+    height: 755px;
+    width: 90%;
+    /* background-color: green; */
+    margin: auto;
+    font-family: sans-serif;
+}
+.head7
+{
+    height: 70px;
+    width: 100%;
+    /* border: 1px solid; */
+    text-transform: capitalize;
+}
+.box7
+{
+    height: 200px;
+    width: 350px;
+    /* background-color: #f39600; */
+    float: left;
+    margin-left: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.boxc
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.226);
+    visibility: hidden;
+}
+.box7:hover .boxc{visibility: visible;}
+/*==================Seventh Section End====================*/
+/*==================Eight Section====================*/
+.container8
+{
+    height: 1350px;
+    /* background-color: red; */
+}
+.list1
+{
+    height: 410px;
+    width: 90%;
+    /* background-color: green; */
+    margin: auto;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.head8
+{
+    height: 41px;
+    width: 100%;
+    /* background-color: #f39600; */
+}
+.tittle,.data8
+{
+    height: 100%;
+    width: 32%;
+    /* border: 1px solid; */
+    float: left;
+    margin-left: 5px;
+}
+.data8
+{
+    height: 87%;
+}
+.htype
+{
+    color: gray;
+    text-transform: none;
+    line-height: 35px;
+}
+.size{font-size: 45px;}
+.size2{font-size: 37px; margin-top: 25px;margin-bottom: 19px;}
+.mt{margin-bottom: 5px;}
+.icon8
+{
+    width: 11px;
+    height: 11px;
+    border: 3px solid #f8b600;
+    background: #fff;
+    border-radius: 50%;
+    margin-left: 0px;
+    float: left;
+    margin-top: 0px;
+}
+.text8,.ol
+{
+    float: left;
+    margin-left: 15px;
+    color: gray;
+}
+.col8
+{
+    height: 25px;
+    width: 100%;
+    margin-top: 5px;
+    /* background-color: red; */
+}
+.subl{margin-left: 75px;}
+.subl1{margin-left: 95px;}
+.ols
+{
+    font-weight: bold;
+    color: #f39600;
+    margin-right: 5px;
+    text-transform: lowercase;
+}
+.lh{line-height: 29px;}
+/* Form and Other Elements */
+.form-el
+{
+    height: 915px;
+    width: 90%;
+    /* background-color: yellow; */
+    margin: auto;
+}
+.part1,.part2
+{
+    height: 100%;
+    width: 40%;
+    /* background-color: green; */
+    float: left;
+    font-family: sans-serif;
+}
+.part2
+{
+    float: right;
+    /* background-color: aqua; */
+}
+.switch8,.check
+{
+    height: 155px;
+    width: 65%;
+    /* background-color: red; */
+    margin-top: 15px;
+}
+.name8,.btn8,.box-type,.box-style
+{
+    height: 100%;
+    width: 60%;
+    float: left;
+    /* background-color: green; */
+    line-height: 37px;
+}
+.btn8,.box-style
+{
+    width: 35%;
+    /* background-color: pink; */
+    float: right;
+}
+.pra8
+{
+    color: gray;
+    text-transform: capitalize;
+}
+.design1
+{
+    height: 19px;
+    width: 41px;
+    /* background-color: #f39600; */
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.design2
+{
+    height: 16px;
+    width: 16px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 2px 4px black;
+    
+}
+.primary{background-color: #f39600;}
+.info{background-color: aqua;}
+.btn-right
+{
+    float: right;
+    margin-top: 1px;
+    margin-right: 2px;
+    box-shadow: none;
+}
+.add{height: 59px;}
+.selectbox
+{
+    height: 20px;
+    width: 50%;
+    /* background-color: blueviolet; */
+}
+.lhs,.rhs
+{
+    height: 100%;
+    width: 65%;
+    /* background-color: #f8b600; */
+    float: left;
+}
+.rhs{width: 25%; margin-left: 2px;}
+.down-arrow
+{
+    color: gray;
+    font-weight: bold;
+    font-size: 13px;
+}
+.mt8{margin-top: 29px;}
+.check{height: 225px;}
+.box-type{width: 70%;}
+.box-style{width: 25%;}
+.check-box,.circle
+{
+    height: 15px;
+    width: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.46);
+    margin-top: 15px;
+    cursor: pointer;
+}
+.check-set{margin-top: 25px;}
+.disable{cursor: not-allowed;}
+.circle{border-radius: 50%;}
+.pointer{cursor: pointer;}
+.radio-active{border: none;}
+.margin{margin-top: 29px;}
+.margint{margin-top: 75px;}
+.rotate{transform: rotate(-19deg);}
+/* Form and Other Elements End*/
+/*==================Eight Section End====================*/
+/* ======================Footer Section=================== */
+.footer
+{
+    height: 650px;
+    background-color: black;
+}
+.container7
+{
+    height: 250px;
+    width: 94%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.64);
+    margin-left: 2%;
+    position: absolute;
+    margin-top: 11%;
+}
+.head7
+{
+    height: 50px;
+    width: 100%;
+    /* background-color: yellow; */
+}
+.footerh
+{
+    display: inline;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: white;
+    /* margin-left: 15.5%; */
+}
+.fbox
+{
+    height: auto;
+    width: 21%;
+    /* border: 1px solid green; */
+    float: left;
+    margin-left: 3%;
+}
+.pra{
+    color: rgba(128, 128, 128, 0.702);
+    font-family: sans-serif;
+    line-height: 25px;
+}
+.navigation
+{
+    
+    list-style: none;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    line-height: 35px;
+    float: left;
+}
+.navigation li a{text-decoration: none; color: rgba(128, 128, 128, 0.705);}
+.navigation li a:hover{color: orange; transition: 0.5s;}
+.right{margin-left: 13%;}
+.email
+{
+    height: 40px;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.705);
+    margin-top: 11%;
+}
+.place-holder
+{
+    margin-left: 11%;
+    margin-top: 3.5%;
+    color: gray;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: 15px;
+    float: left;
+}
+.font
+{
+    height: 100%;
+    width: 15%;
+    background-color: rgb(255, 179, 0);
+    float: right;
+    text-align: center;
+    line-height: 37px;
+}
+.sign{color: white;}
+.pic-s{margin-left: 2%; margin-top: 2%;}
+.copy
+{
+    height: 45px;
+    width: 90%;
+    /* border: 1px solid green; */
+    position: absolute;
+    margin-top: 32%;
+    margin-left: 5%;
+}
+.copy-text{color: gray; font-family: sans-serif; float: left;}
+.symbol
+{
+    height: 100%;
+    width: 25%;
+    /* background-color: red; */
+    float: right;
+    
+}
+.lf{margin-left: 7%;}
+.copy-text a{text-decoration: none; color: orange;}
+.symbol a{text-decoration: none; color: gray; transition: 0.5s;}
+.symbol a:hover{color: orange;}
+/* ======================Footer Section End=================== */

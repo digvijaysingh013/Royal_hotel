@@ -1,0 +1,747 @@
+*{margin: 0px; padding: 0px;}
+.boxx{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 241px;
+}
+/*=====================First Section==============================*/
+.container1
+{
+    height: 770px;
+
+    background-image: url("../image/banner_bg.jpg");
+    background-size: 100% 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.home
+{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* ======================Navbar============================= */
+.nav
+{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 22;
+}
+.icon
+{
+    margin-top: 22px;
+    margin-left: 119px;
+}
+
+.navlist
+{
+    float: right;
+    list-style: none;
+    margin-right: 75px;
+}
+
+.navlist li
+{
+    float: left;
+    padding: 13px 19px;
+}
+.navlist li a
+{
+    text-decoration: none; 
+    color: black;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    line-height: 55px;
+    font-size: 11.9px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.navlist li a:hover{color: rgb(89, 198, 235);}
+/*===================Navbar end==================*/
+.container1i
+{
+    height: 260px;
+    width: 585px;
+    /* background-color: red; */
+    margin:auto;
+    /* margin-top: 160px; */
+    text-align: center;
+    color: white;
+    /* position: absolute; */
+}
+.p1
+{
+    height: 25px;
+    width: 55%;
+    margin: auto;
+    /* background-color: aqua; */
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-size: 13px;
+}
+.p2
+{
+    height: 70px;
+    width: 85%;
+    /* background-color: yellow; */
+    margin: auto;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.p3
+{
+    height: 40px;
+    width: 100%;
+    /* background-color: green; */
+    margin-top: 15px;
+    font-family: sans-serif;
+    line-height: 21px;
+    font-size: 14px;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+}
+/*================Button Animation=====================*/
+.btn
+{
+    height: 38px;
+    width: 145px;
+    background-color: rgb(253, 187, 5);
+    margin: auto;
+    margin-top: 50px;
+    line-height: 37px;
+    position: relative;
+    cursor: pointer;
+}
+.txt
+{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size: 13px;
+    position: absolute;
+    margin-left: 28px;
+    z-index: 2;
+}
+.box2
+{
+    height: 100%;
+    width: 0;
+    background-color: rgb(255, 166, 0);
+    position: absolute;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.btn:hover .box2{width: 100%;}
+/* ===========Button Animation End================== */
+/* ===================Book Your Room================= */
+.book
+{
+    height: 155px;
+    width: 85%;
+    background-color: black;
+    margin: auto;
+    margin-top: 8.4%;
+    /* text-align: center; */
+    font-family: sans-serif;
+    position: relative;
+}
+.room
+{
+    height: 50%;
+    width: 15%;
+    position: absolute;
+    left: 5%;
+    top: 32%;
+    color: white;
+    /* background-color: aqua; */
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    /* line-height: 55px; */
+}
+.room2
+{
+    height: 100%;
+    width: 80%;
+    background-color: black;
+    position: absolute;
+    left: 20%;
+}
+/* ===============Note-==================== */
+.common1,.common
+{
+    height: 37px; 
+    width: 255px;
+    margin-left: 29px;
+    margin-top: 11px;
+    border: 1px solid rgba(128, 128, 128, 0.531);
+    text-transform: capitalize;
+    line-height: 37px;
+    color: rgba(128, 128, 128, 0.693);
+    float: left;
+}
+.common{margin-top: 2.9%;}
+.title{margin-left: 15px;}
+/* ===================Button Animation================== */
+.anitxt
+{
+    margin-left: 85px;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 2;
+    transition: 0.5s;
+}
+.now
+{
+    background-color: rgb(255, 234, 0); 
+    position: relative;
+}
+.now:hover .box2{width: 100%;} 
+.now:hover .anitxt{color: white;}
+/*===============First Section End======================*/
+
+/*===============Second Section ===========================*/
+.container2
+{
+    height: 755px;
+    position: relative;
+    /* background-color: yellow; */
+}
+.heading
+{
+    height: auto;
+    width: 49%;
+    background-color: white;
+    top: 175px;
+    left: 329px;
+    position: absolute;
+    text-align: center;
+    font-family: sans-serif;
+}
+.hotel
+{
+    line-height: 65px;
+    text-transform: capitalize;
+}
+/* ====================images======================= */
+.img-container
+{
+    height: 277px;/* kam karni hai baad me*/
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: 45%;
+    /* background-color: green; */
+}
+.img-box
+{
+    height: 275px;
+    width: 270px;
+    border-radius: 10px;
+    overflow: hidden;
+    float: left;
+    margin-left: 25px;
+}
+.child
+{
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: 0.7s;
+    position: relative;
+}
+.img-box:hover .child{transform: scale(1.2);}
+
+.btn2
+{
+    height: 42px;
+    width: 130px;  
+    background-color: rgb(253, 187, 5);
+    position: absolute;
+    top: 75%;
+    left: 8%;
+    line-height: 44px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    color: white;
+    cursor: pointer;
+}
+.box2{
+    height: 100%;
+    width: 0px;
+    background-color: rgb(255, 166, 0);
+    position: absolute;
+}
+.txt2{position: absolute; left: 18%; z-index: 2;}
+.btn2:hover .box2{width: 100%;}
+/* ====================images end====================== */
+.price-container
+{
+    height: 90px;
+    width: 90%;
+    /* background-color: red; */
+    margin: auto;
+    position: relative;
+    top: 45.5%;
+}
+.section
+{
+    height: 100%;
+    width: 24%;
+    /* border: 1px solid; */
+    float: left;
+    margin-left: 5px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.rname
+{
+    text-transform: capitalize;
+    line-height: 29px;
+    cursor: pointer;
+}
+.rate,.night{color: rgb(20, 170, 219);}
+.rate
+{
+    font-size: 21px; 
+    font-weight: bold;
+}
+.night{font-size: 15px;}
+/* ============================Second section end================== */
+/* ==========================Third section===================== */
+.container3
+{
+    height: 755px;
+    background-image: url("../image/facilites_bg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.shadow
+{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: relative;
+}
+.head
+{
+    height: auto;
+    width: auto;
+    /* background-color: yellow; */
+    position: absolute;
+    left: 39%;
+    top: 15%;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 35px;
+    color: white;
+}
+.head1{text-transform: capitalize; }
+.container3i
+{
+    height: auto;
+    width: 90%;
+    /* border: 1PX solid red; */
+    position: relative;
+    left: 7%;
+    top: 35%;
+}
+.common-box
+{
+    height: auto;
+    width: 267px;
+    background-color: rgba(128, 128, 128, 0.253);
+    border-radius: 10px;
+    font-family: sans-serif;
+    padding: 35px 40px;
+    border: 1px solid rgba(255, 255, 255, 0.404);
+    float: left;
+    margin-left: 29px;
+    margin-top: 25px;
+}
+.style
+{
+    color: yellow;
+    font-size: 21px;
+}
+.common-title
+{
+    display: inline; 
+    margin-left: 15px; 
+    color: white; 
+    text-transform: capitalize;
+}
+.cont
+{
+    color: white;
+    font-size: 15px;
+    line-height: 21px;
+}
+/* ================Third section end=============================== */
+/* ===================Fourth section================================= */
+.container4
+{
+    height: 755px;
+    /* border: 1px solid red; */
+}
+.container4i
+{
+    height: 70%;
+    width: 90%;
+    /* background-color: red; */
+    margin: auto;
+}
+.part1,.part2
+{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+/* .part1{background-color: yellow;}
+.part2{background-color: green;} */
+.container4ii
+{
+    height: 71%;
+    width: 82%;
+    /* background-color: red; */
+    margin-top: 22%;
+    font-family: sans-serif;
+}
+.head4
+{
+    text-transform: capitalize;
+}
+.about{color: gray; margin-top: 19px; line-height: 25px;}
+/* Button Annimation */
+.btn4
+{
+    height: 40px;
+    width: 45%;
+    background-color: black;
+    position: relative;
+    top: 11%;
+}
+.txt4
+{
+    text-transform: uppercase;
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    top: 34%;
+    left: 11%;
+    font-size: 13px;
+}
+.box4
+{
+    height: 100%;
+    width: 0px;
+    background-color: rgb(255, 187, 0);
+    transition: 0.5s;
+}
+.btn4:hover .box4{width: 100%;}
+/* Button Animation End */
+/* ================ Fourth Section End==================*/
+/* ===================Fifth Section =================== */
+.container5
+{
+    height: 700px;
+    /* border: 1px solid red; */
+}
+.head5
+{
+    height: auto;
+    width: 55%  ;
+    margin: auto;
+    /* background-color: green; */
+    font-family: sans-serif;
+    text-align: center;
+}
+/* --------------------Slider Animation--------------------- */
+.container5i
+{
+    height: 250px;
+    width: 85%;
+    /* border: 1px solid green; */
+    margin: auto;
+    margin-top: 79px;
+    overflow: hidden; /* important for animation*/
+}
+.content
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: 2s;
+    /* margin-left: 100%; */
+    
+}
+/* .container5i:hover .content{margin-left: 0%;} */
+.box1,.boxii
+{
+    height: 95%;
+    width: 42%;
+    position: relative;
+    /* border: 1px solid red; */
+    float: left;
+    background-color: white; 
+    margin-left: 5%;
+    border: 1px solid rgba(128, 128, 128, 0.26);
+    font-family: sans-serif;
+}
+.photo
+{
+    height: 100%;
+    width: 20%;
+    /* background-color: yellow; */
+    float: left;
+}
+
+.pic1
+{
+    border-radius: 50%;
+    margin-left: 15%;
+    margin-top: 45%;
+}
+.data
+{
+    height: 100%;
+    width: 79%;
+    /* background-color: green; */
+    float: left;
+}
+
+.data5
+{
+    margin-top: 49px;
+    margin-left: 5%;
+    line-height: 25px;
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.836);
+}
+.star
+{
+    height: auto;
+    width: 110px;
+    /* border: 1px solid red; */
+    margin-top: 15px;
+    margin-left: 5%;
+}
+.style5
+{
+    font-size: 13px;
+    color: yellow;
+}
+.hname{text-transform: capitalize; margin-top: 15px; margin-left: 5%;}
+
+.btn5
+{
+    height: 25px;
+    width: 90px;
+    /* border: 1px solid; */
+    margin: auto;
+    margin-top: 55px;
+}
+.btn5i,.btn5ii
+{
+    height: 65%;
+    width: 19%;
+    background-color: orange;
+    float: left;
+    margin-left: 15%;
+}
+/* =============Fifth Section End======================= */
+/* ========================Sixth Section============== */
+.container6
+{
+    height: 700px;
+    /* border: 1px solid red; */
+}
+.head6
+{
+    height: 15%;
+    width: 50%;
+    margin: auto;
+    /* border: 1px solid; */
+    text-align: center;
+    font-family: sans-serif;  
+    line-height: 40px;
+}
+.image-container
+{
+    height: 77%;
+    width: 89%;
+    /* border: 1px solid; */
+    margin-top: 95px;
+    margin: auto;
+    position: relative;
+    top: 5%;
+}
+.zoom
+{
+    height: 260px;
+    width: 360px;
+    /* border: 1px solid; */
+    overflow: hidden;
+    float: left;
+    margin-left: 2%;
+    font-family: sans-serif;
+}
+.pic5{transition: 2s;}
+.zoom:hover .pic5{transform: scale(1.4,1.4) rotate(15deg);}
+
+.btn6,.btn6i
+{
+    height: 21px;
+    width: 70px;
+    border:1px solid rgba(128, 128, 128, 0.247);
+    position: relative;
+    top: 9%;
+    float: left;
+    cursor: pointer;
+}
+.btn6i
+{
+    left: 1%;
+    width: 90px;
+}
+.txt6
+{
+    text-transform: capitalize;
+    font-size: 15px;
+    top: 2%;
+    position: absolute;
+    left: 15%;
+}
+.box6
+{
+    height: 100%;
+    width: 0%;
+    background-color: rgb(255, 187, 0);
+    transition: 0.5s;
+}
+.btn6:hover .box6{width: 100%;}
+.btn6i:hover .box6{width: 100%;}
+.hbold{margin-top: 19%; text-transform: capitalize; transition: 0.5s; cursor: pointer;}
+.hbold:hover{color: rgb(89, 198, 235);;}
+.data6{font-size: 15px; color: gray; margin-top: 5%;}
+.date6{margin-top: 7%; text-transform: capitalize; font-weight: lighter;}
+/* ========================Sixth Section End============== */
+/* ======================Footer Section=================== */
+.footer
+{
+    height: 650px;
+    background-color: black;
+}
+.container7
+{
+    height: 250px;
+    width: 94%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.64);
+    margin-left: 2%;
+    position: absolute;
+    margin-top: 11%;
+}
+.head7
+{
+    height: 50px;
+    width: 100%;
+    /* background-color: yellow; */
+}
+.footerh
+{
+    display: inline;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: white;
+    /* margin-left: 15.5%; */
+}
+.fbox
+{
+    height: auto;
+    width: 21%;
+    /* border: 1px solid green; */
+    float: left;
+    margin-left: 3%;
+}
+.pra{
+    color: rgba(128, 128, 128, 0.702);
+    font-family: sans-serif;
+    line-height: 25px;
+}
+.navigation
+{
+    
+    list-style: none;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    line-height: 35px;
+    float: left;
+}
+.navigation li a{text-decoration: none; color: rgba(128, 128, 128, 0.705);}
+.navigation li a:hover{color: orange; transition: 0.5s;}
+.right{margin-left: 13%;}
+.email
+{
+    height: 40px;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.705);
+    margin-top: 11%;
+}
+.place-holder
+{
+    margin-left: 11%;
+    margin-top: 3.5%;
+    color: gray;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: 15px;
+    float: left;
+}
+.font
+{
+    height: 100%;
+    width: 15%;
+    background-color: rgb(255, 179, 0);
+    float: right;
+    text-align: center;
+    line-height: 37px;
+}
+.sign{color: white;}
+.pic-s{margin-left: 2%; margin-top: 2%;}
+.copy
+{
+    height: 45px;
+    width: 90%;
+    /* border: 1px solid green; */
+    position: absolute;
+    margin-top: 32%;
+    margin-left: 5%;
+}
+.copy-text{color: gray; font-family: sans-serif; float: left;}
+.symbol
+{
+    height: 100%;
+    width: 25%;
+    /* background-color: red; */
+    float: right;
+    
+}
+.lf{margin-left: 7%;}
+.copy-text a{text-decoration: none; color: orange;}
+.symbol a{text-decoration: none; color: gray; transition: 0.5s;}
+.symbol a:hover{color: orange;}
+/* ======================Footer Section End=================== */

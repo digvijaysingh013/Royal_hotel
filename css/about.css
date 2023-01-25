@@ -1,0 +1,428 @@
+*{margin: 0px; padding: 0px;}
+/* ======================Navbar============================= */
+.nav
+{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 22;
+}
+.icon
+{
+    margin-top: 22px;
+    margin-left: 119px;
+}
+
+.navlist
+{
+    float: right;
+    list-style: none;
+    margin-right: 75px;
+}
+
+.navlist li
+{
+    float: left;
+    padding: 13px 19px;
+}
+.navlist li a
+{
+    text-decoration: none; 
+    color: black;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    line-height: 55px;
+    font-size: 11.9px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.navlist li a:hover{color: rgb(89, 198, 235);}
+/*===================Navbar end==================*/
+ /*====================First Section=============*/
+.container1
+{
+    height: 357px;
+    background-image: url("../image/about_banner.jpg");
+    background-size: 100%;
+}
+.cover
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.509);
+}
+.home
+{
+    height: 80px;
+    width: 250px;
+    /* background-color: red; */
+    position: relative;
+    top: 45%;
+    left: 41%;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    line-height: 45px;
+}
+.head1
+{
+   display: inline;
+   padding-right:5px;
+   font-weight: lighter;
+}
+/*==================Firsr Section End====================*/
+/* ===================Second section================================= */
+.container4
+{
+    height: 755px;
+    /* border: 1px solid red; */
+}
+.container4i
+{
+    height: 70%;
+    width: 90%;
+    /* background-color: red; */
+    margin: auto;
+}
+.part1,.part2
+{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+/* .part1{background-color: yellow;}
+.part2{background-color: green;} */
+.container4ii
+{
+    height: 71%;
+    width: 82%;
+    /* background-color: red; */
+    margin-top: 22%;
+    font-family: sans-serif;
+}
+.head4
+{
+    text-transform: capitalize;
+}
+.about{color: gray; margin-top: 19px; line-height: 25px;}
+/* Button Annimation */
+.btn4
+{
+    height: 40px;
+    width: 45%;
+    background-color: black;
+    position: relative;
+    top: 11%;
+}
+.txt4
+{
+    text-transform: uppercase;
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    top: 34%;
+    left: 11%;
+    font-size: 13px;
+}
+.box4
+{
+    height: 100%;
+    width: 0px;
+    background-color: rgb(255, 187, 0);
+    transition: 0.5s;
+}
+.btn4:hover .box4{width: 100%;}
+/* Button Animation End */
+/* ================ Second Section End==================*/
+/* ===================Fifth Section =================== */
+.container5
+{
+    height: 700px;
+    /* border: 1px solid red; */
+}
+.head5
+{
+    height: auto;
+    width: 55%  ;
+    margin: auto;
+    /* background-color: green; */
+    font-family: sans-serif;
+    text-align: center;
+}
+/* --------------------Slider Animation--------------------- */
+.container5i
+{
+    height: 250px;
+    width: 85%;
+    /* border: 1px solid green; */
+    margin: auto;
+    margin-top: 79px;
+    overflow: hidden; /* important for animation*/
+}
+.content
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: 2s;
+    /* margin-left: 100%; */
+    
+}
+/* .container5i:hover .content{margin-left: 0%;} */
+.box1,.boxii
+{
+    height: 95%;
+    width: 42%;
+    position: relative;
+    /* border: 1px solid red; */
+    float: left;
+    background-color: white; 
+    margin-left: 5%;
+    border: 1px solid rgba(128, 128, 128, 0.26);
+    font-family: sans-serif;
+}
+.photo
+{
+    height: 100%;
+    width: 20%;
+    /* background-color: yellow; */
+    float: left;
+}
+
+.pic1
+{
+    border-radius: 50%;
+    margin-left: 15%;
+    margin-top: 45%;
+}
+.data
+{
+    height: 100%;
+    width: 79%;
+    /* background-color: green; */
+    float: left;
+}
+
+.data5
+{
+    margin-top: 49px;
+    margin-left: 5%;
+    line-height: 25px;
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.836);
+}
+.star
+{
+    height: auto;
+    width: 110px;
+    /* border: 1px solid red; */
+    margin-top: 15px;
+    margin-left: 5%;
+}
+.style5
+{
+    font-size: 13px;
+    color: yellow;
+}
+.hname{text-transform: capitalize; margin-top: 15px; margin-left: 5%;}
+
+.btn5
+{
+    height: 25px;
+    width: 90px;
+    /* border: 1px solid; */
+    margin: auto;
+    margin-top: 55px;
+}
+.btn5i,.btn5ii
+{
+    height: 65%;
+    width: 19%;
+    background-color: orange;
+    float: left;
+    margin-left: 15%;
+}
+/* =============Fifth Section End======================= */
+/* ========================Sixth Section============== */
+.container6
+{
+    height: 700px;
+    /* border: 1px solid red; */
+}
+.head6
+{
+    height: 15%;
+    width: 50%;
+    margin: auto;
+    /* border: 1px solid; */
+    text-align: center;
+    font-family: sans-serif;  
+    line-height: 40px;
+}
+.image-container
+{
+    height: 77%;
+    width: 89%;
+    /* border: 1px solid; */
+    margin-top: 95px;
+    margin: auto;
+    position: relative;
+    top: 5%;
+}
+.zoom
+{
+    height: 260px;
+    width: 360px;
+    /* border: 1px solid; */
+    overflow: hidden;
+    float: left;
+    margin-left: 2%;
+    font-family: sans-serif;
+}
+.pic5{transition: 2s;}
+.zoom:hover .pic5{transform: scale(1.4,1.4) rotate(15deg);}
+
+.btn6,.btn6i
+{
+    height: 21px;
+    width: 70px;
+    border:1px solid rgba(128, 128, 128, 0.247);
+    position: relative;
+    top: 9%;
+    float: left;
+    cursor: pointer;
+}
+.btn6i
+{
+    left: 1%;
+    width: 90px;
+}
+.txt6
+{
+    text-transform: capitalize;
+    font-size: 15px;
+    top: 2%;
+    position: absolute;
+    left: 15%;
+}
+.box6
+{
+    height: 100%;
+    width: 0%;
+    background-color: rgb(255, 187, 0);
+    transition: 0.5s;
+}
+.btn6:hover .box6{width: 100%;}
+.btn6i:hover .box6{width: 100%;}
+.hbold{margin-top: 19%; text-transform: capitalize; transition: 0.5s; cursor: pointer;}
+.hbold:hover{color: rgb(89, 198, 235);;}
+.data6{font-size: 15px; color: gray; margin-top: 5%;}
+.date6{margin-top: 7%; text-transform: capitalize; font-weight: lighter;}
+/* ========================Sixth Section End============== */
+/* ======================Footer Section=================== */
+.footer
+{
+    height: 650px;
+    background-color: black;
+}
+.container7
+{
+    height: 250px;
+    width: 94%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.64);
+    margin-left: 2%;
+    position: absolute;
+    margin-top: 11%;
+}
+.head7
+{
+    height: 50px;
+    width: 100%;
+    /* background-color: yellow; */
+}
+.footerh
+{
+    display: inline;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: white;
+    /* margin-left: 15.5%; */
+}
+.fbox
+{
+    height: auto;
+    width: 21%;
+    /* border: 1px solid green; */
+    float: left;
+    margin-left: 3%;
+}
+.pra{
+    color: rgba(128, 128, 128, 0.702);
+    font-family: sans-serif;
+    line-height: 25px;
+}
+.navigation
+{
+    
+    list-style: none;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    line-height: 35px;
+    float: left;
+}
+.navigation li a{text-decoration: none; color: rgba(128, 128, 128, 0.705);}
+.navigation li a:hover{color: orange; transition: 0.5s;}
+.right{margin-left: 13%;}
+.email
+{
+    height: 40px;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.705);
+    margin-top: 11%;
+}
+.place-holder
+{
+    margin-left: 11%;
+    margin-top: 3.5%;
+    color: gray;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: 15px;
+    float: left;
+}
+.font
+{
+    height: 100%;
+    width: 15%;
+    background-color: rgb(255, 179, 0);
+    float: right;
+    text-align: center;
+    line-height: 37px;
+}
+.sign{color: white;}
+.pic-s{margin-left: 2%; margin-top: 2%;}
+.copy
+{
+    height: 45px;
+    width: 90%;
+    /* border: 1px solid green; */
+    position: absolute;
+    margin-top: 32%;
+    margin-left: 5%;
+}
+.copy-text{color: gray; font-family: sans-serif; float: left;}
+.symbol
+{
+    height: 100%;
+    width: 25%;
+    /* background-color: red; */
+    float: right;
+    
+}
+.lf{margin-left: 7%;}
+.copy-text a{text-decoration: none; color: orange;}
+.symbol a{text-decoration: none; color: gray; transition: 0.5s;}
+.symbol a:hover{color: orange;}
+/* ======================Footer Section End=================== */

@@ -1,0 +1,360 @@
+*{margin: 0px; padding: 0px;}
+/* ======================Navbar============================= */
+.nav
+{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 22;
+}
+.icon
+{
+    margin-top: 22px;
+    margin-left: 119px;
+}
+
+.navlist
+{
+    float: right;
+    list-style: none;
+    margin-right: 75px;
+}
+
+.navlist li
+{
+    float: left;
+    padding: 13px 19px;
+}
+.navlist li a
+{
+    text-decoration: none; 
+    color: black;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    line-height: 55px;
+    font-size: 11.9px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.navlist li a:hover{color: rgb(89, 198, 235);}
+/*===================Navbar end==================*/
+ /*====================First Section=============*/
+.container1
+{
+    height: 357px;
+    background-image: url("../image/about_banner.jpg");
+    background-size: 100%;
+}
+.cover
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.509);
+}
+.home
+{
+    height: 80px;
+    width: 250px;
+    /* background-color: red; */
+    position: relative;
+    top: 45%;
+    left: 41%;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    line-height: 45px;
+}
+.head1
+{
+   display: inline;
+   padding-right:5px;
+   font-weight: lighter;
+}
+/*==================Firsr Section End====================*/
+/*===============Second Section ===========================*/
+.container2
+{
+    height: 755px;
+    position: relative;
+    /* background-color: yellow; */
+}
+.heading
+{
+    height: auto;
+    width: 49%;
+    background-color: white;
+    top: 175px;
+    left: 329px;
+    position: absolute;
+    text-align: center;
+    font-family: sans-serif;
+}
+.hotel
+{
+    line-height: 65px;
+    text-transform: capitalize;
+}
+/* ====================images======================= */
+.img-container
+{
+    height: 277px;/* kam karni hai baad me*/
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: 45%;
+    /* background-color: green; */
+}
+.img-box
+{
+    height: 275px;
+    width: 24%;
+    border-radius: 10px;
+    overflow: hidden;
+    float: left;
+    margin-left: 1%;
+}
+.child
+{
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: 0.7s;
+    position: relative;
+}
+.img-box:hover .child{transform: scale(1.2);}
+
+.btn2
+{
+    height: 42px;
+    width: 130px;  
+    background-color: rgb(253, 187, 5);
+    position: absolute;
+    top: 75%;
+    left: 8%;
+    line-height: 44px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    color: white;
+    cursor: pointer;
+}
+.box2{
+    height: 100%;
+    width: 0px;
+    background-color: rgb(255, 166, 0);
+    position: absolute;
+    transition: 0.5s;
+}
+.txt2{position: absolute; left: 18%; z-index: 2;}
+.btn2:hover .box2{width: 100%;}
+/* ====================images end====================== */
+.price-container
+{
+    height: 90px;
+    width: 90%;
+    /* background-color: red; */
+    margin: auto;
+    position: relative;
+    top: 45.5%;
+}
+.section
+{
+    height: 100%;
+    width: 24%;
+    /* border: 1px solid; */
+    float: left;
+    margin-left: 5px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.rname
+{
+    text-transform: capitalize;
+    line-height: 29px;
+    cursor: pointer;
+}
+.rate,.night{color: rgb(20, 170, 219);}
+.rate
+{
+    font-size: 21px; 
+    font-weight: bold;
+}
+.night{font-size: 15px;}
+/* ===================Book Your Room================= */
+.book
+{
+    height: 155px;
+    width: 85%;
+    background-color: black;
+    margin: auto;
+    margin-top: 8.4%;
+    /* text-align: center; */
+    font-family: sans-serif;
+    position: relative;
+}
+.room
+{
+    height: 50%;
+    width: 15%;
+    position: absolute;
+    left: 5%;
+    top: 32%;
+    color: white;
+    /* background-color: aqua; */
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    /* line-height: 55px; */
+}
+.room2
+{
+    height: 100%;
+    width: 80%;
+    background-color: black;
+    position: absolute;
+    left: 20%;
+}
+/* ===============Note-==================== */
+.common1,.common
+{
+    height: 37px; 
+    width: 29%;
+    margin-left: 2.9%;
+    margin-top: 11px;
+    border: 1px solid rgba(128, 128, 128, 0.531);
+    text-transform: capitalize;
+    line-height: 37px;
+    color: rgba(128, 128, 128, 0.693);
+    float: left;
+}
+.common{margin-top: 4.5%;}
+.title{margin-left: 15px;}
+/* ===================Button Animation================== */
+.anitxt
+{
+    margin-left: 85px;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 2;
+    transition: 0.5s;
+}
+.now
+{
+    background-color: rgb(255, 234, 0); 
+    position: relative;
+}
+.now:hover .box2{width: 100%;} 
+.now:hover .anitxt{color: white;}
+/* ============================Second section end================== */ 
+/* ======================Footer Section=================== */
+.footer
+{
+    height: 650px;
+    background-color: black;
+}
+.container7
+{
+    height: 250px;
+    width: 94%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.64);
+    margin-left: 2%;
+    position: absolute;
+    margin-top: 11%;
+}
+.head7
+{
+    height: 50px;
+    width: 100%;
+    /* background-color: yellow; */
+}
+.footerh
+{
+    display: inline;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: white;
+    /* margin-left: 15.5%; */
+}
+.fbox
+{
+    height: auto;
+    width: 21%;
+    /* border: 1px solid green; */
+    float: left;
+    margin-left: 3%;
+}
+.pra{
+    color: rgba(128, 128, 128, 0.702);
+    font-family: sans-serif;
+    line-height: 25px;
+}
+.navigation
+{
+    
+    list-style: none;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    line-height: 35px;
+    float: left;
+}
+.navigation li a{text-decoration: none; color: rgba(128, 128, 128, 0.705);}
+.navigation li a:hover{color: orange; transition: 0.5s;}
+.right{margin-left: 13%;}
+.email
+{
+    height: 40px;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.705);
+    margin-top: 11%;
+}
+.place-holder
+{
+    margin-left: 11%;
+    margin-top: 3.5%;
+    color: gray;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: 15px;
+    float: left;
+}
+.font
+{
+    height: 100%;
+    width: 15%;
+    background-color: rgb(255, 179, 0);
+    float: right;
+    text-align: center;
+    line-height: 37px;
+}
+.sign{color: white;}
+.pic-s{margin-left: 2%; margin-top: 2%;}
+.copy
+{
+    height: 45px;
+    width: 90%;
+    /* border: 1px solid green; */
+    position: absolute;
+    margin-top: 32%;
+    margin-left: 5%;
+}
+.copy-text{color: gray; font-family: sans-serif; float: left;}
+.symbol
+{
+    height: 100%;
+    width: 25%;
+    /* background-color: red; */
+    float: right;
+    
+}
+.lf{margin-left: 7%;}
+.copy-text a{text-decoration: none; color: orange;}
+.symbol a{text-decoration: none; color: gray; transition: 0.5s;}
+.symbol a:hover{color: orange;}
+/* ======================Footer Section End=================== */
